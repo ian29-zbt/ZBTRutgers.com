@@ -70,3 +70,44 @@
     start();
   });
 })();
+
+// Version 7: archive lightbox and respectful video behavior.
+(() => {
+  const dialog = document.querySelector('[data-lightbox-dialog]');
+  if (dialog) {
+    const image = dialog.querySelector('[data-lightbox-image]');
+    const caption = dialog.querySelector('[data-lightbox-caption]');
+    const close = dialog.querySelector('[data-lightbox-close]');
+    let lastFocus = null;
+    const shut = () => {
+      dialog.hidden = true;
+      document.body.style.overflow = '';
+      lastFocus?.focus();
+    };
+    document.querySelectorAll('[data-lightbox]').forEach(button => {
+      button.addEventListener('click', () => {
+        lastFocus = button;
+        image.src = button.dataset.lightbox;
+        image.alt = button.dataset.caption || 'Expanded archive image';
+        caption.textContent = button.dataset.caption || '';
+        dialog.hidden = false;
+        document.body.style.overflow = 'hidden';
+        close.focus();
+      });
+    });
+    close?.addEventListener('click', shut);
+    dialog.addEventListener('click', e => { if (e.target === dialog) shut(); });
+    document.addEventListener('keydown', e => { if (!dialog.hidden && e.key === 'Escape') shut(); });
+  }
+
+  const motionVideos = [...document.querySelectorAll('.motion-video')];
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    motionVideos.forEach(video => video.pause());
+  }
+  document.addEventListener('visibilitychange', () => {
+    motionVideos.forEach(video => {
+      if (document.hidden) video.pause();
+      else if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) video.play().catch(() => {});
+    });
+  });
+})();

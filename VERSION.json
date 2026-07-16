@@ -1,31 +1,6 @@
 {
-  "version": "5.5-final",
-  "public_pages": [
-    "index.html",
-    "about.html",
-    "leadership.html",
-    "brotherhood.html",
-    "recruitment.html",
-    "philanthropy.html",
-    "our-home.html",
-    "alumni.html",
-    "alumni-news.html",
-    "parents.html"
-  ],
-  "cms_content_blocks": 640,
-  "cms_image_slots": 53,
-  "supabase_project": "https://bxnnzdqazprorieylctt.supabase.co",
-  "approved_admin_emails": [
-    "ian29@scarletmail.rutgers.edu",
-    "mag647@scarletmail.rutgers.edu"
-  ],
-  "logo_asset": "assets/zbt-wordmark.jpg",
-  "logo_update": "User-supplied Zeta Beta Tau Fraternity crest wordmark",
-  "final_changes": [
-    "Recruitment Directors displayed immediately after the Recruitment hero",
-    "Brotherhood Development Directors displayed immediately after the Brotherhood hero",
-    "Direct profile links for Emmet Bushue, Brandon Sternthal, Sean Hopp and Shane Russin",
-    "Exact user-supplied Zeta Beta Tau wordmark used across the site"
-  ],
-  "logo_sha256": "7aef92866fababc4707b0d38c61ac1ec2b2250690956b1f33fe6dd0ad632ef58"
+  "version": "7.2",
+  "name": "Public Launch \u2014 Final Corrections",
+  "date": "2026-07-16",
+  "domain": "https://zbtrutgers.com"
 }
