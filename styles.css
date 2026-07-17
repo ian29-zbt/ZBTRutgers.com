@@ -711,3 +711,51 @@ p{margin:0 0 1.15rem}
   .motion-video{animation:none!important;opacity:0!important}
   .motion-video-one{opacity:.38!important}
 }
+
+
+/* Version 8.1 — open house and historical corrections */
+.chapter-houses-hero{background-position:center 42%}
+.current-home-hero{background-position:center 52%}
+.archive-hero{background-position:center 40%}
+.house-history-section{background:#fff}
+.house-history-list{display:grid;gap:28px}
+.house-history-card{display:grid;grid-template-columns:1.15fr .85fr;min-height:440px;background:var(--soft);border:1px solid var(--line);box-shadow:var(--shadow-soft);overflow:hidden}
+.house-history-card:nth-child(even){grid-template-columns:.85fr 1.15fr}
+.house-history-card:nth-child(even) .house-history-media{order:2}
+.house-history-media img{width:100%;height:100%;min-height:440px;object-fit:cover}
+.house-history-copy{display:flex;flex-direction:column;justify-content:center;padding:50px}
+.house-history-copy h2{font-size:clamp(2.7rem,4.8vw,4.9rem);margin-bottom:18px}
+.house-history-copy>p:not(.eyebrow){color:var(--muted);font-size:1.05rem}
+.chapter-houses-preview{background:var(--cream);scroll-margin-top:140px}
+.house-preview-images img{object-fit:cover}
+.archive-decade{margin:0 0 70px}
+.archive-decade:last-child{margin-bottom:0}
+.archive-decade-heading{display:flex;align-items:center;gap:22px;margin-bottom:24px;border-bottom:1px solid var(--line);padding-bottom:14px}
+.archive-decade-heading span{font-family:var(--serif);font-size:3rem;color:var(--gold-dark)}
+.archive-decade-heading h3{font-size:1rem;letter-spacing:.16em;text-transform:uppercase;margin:0;color:var(--muted)}
+.alumni-update-section{background:linear-gradient(135deg,var(--navy),var(--navy-2));color:#fff;scroll-margin-top:140px}
+.alumni-update-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:72px;align-items:center}
+.alumni-update-grid h2{font-size:clamp(3rem,5vw,5.2rem)}
+.alumni-update-grid p{color:#d3dee6;font-size:1.06rem}
+.alumni-update-grid .button{background:var(--gold);border-color:var(--gold);color:var(--navy)}
+.alumni-update-grid img{width:100%;height:560px;object-fit:cover;box-shadow:var(--shadow)}
+@media(max-width:960px){
+  .house-history-card,.house-history-card:nth-child(even),.alumni-update-grid{grid-template-columns:1fr}
+  .house-history-card:nth-child(even) .house-history-media{order:0}
+  .house-history-media img{min-height:0;height:520px}
+  .alumni-update-grid img{height:500px}
+}
+@media(max-width:640px){
+  .house-history-media img{height:360px}
+  .house-history-copy{padding:36px 24px}
+  .archive-decade-heading span{font-size:2.3rem}
+  .alumni-update-grid img{height:380px}
+}
+
+/* Version 8.1 additions */
+.open-house-highlight{background:linear-gradient(135deg,var(--navy),var(--navy-2));color:#fff}
+.open-house-highlight .feature-split>div>p{color:#d7e1e8}
+.open-house-highlight .feature-split h2{color:#fff}
+.open-house-highlight .feature-split>img{box-shadow:0 24px 65px rgba(0,0,0,.28)}
+.open-house-highlight .button{background:var(--gold);border-color:var(--gold);color:var(--navy);align-self:flex-start}
+.archive-people{border-top:1px solid var(--line)}

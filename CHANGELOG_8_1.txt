@@ -1,0 +1,10 @@
+VERSION 8.1 CHANGES
+
+- Replaced Brandon Sternthal's image everywhere with the approved professional headshot.
+- Corrected the historic beach photo from "Spring Formal 1985" to "Spring Break 1986."
+- Added the Family & Alumni Open House at 106 College Avenue on August 30, 2026, from 1:00–5:00 PM.
+- Featured the open house on the homepage, Alumni page and Alumni News page.
+- Added Beta Delta's role in helping establish the first Rutgers University Dance Marathon in 1971.
+- Added the 2016 Keller football championship.
+- Expanded the public history of Joe Glaser and Steven Springer.
+- Excluded internal, disciplinary and inappropriate pledge-education material from the public website.
