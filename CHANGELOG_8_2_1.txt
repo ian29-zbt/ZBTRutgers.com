@@ -1,0 +1,8 @@
+VERSION 8.2.1 CHANGES
+
+- Permanently removed the Sean Hopp 78 Commissioner section.
+- Added a CSS safety rule so the obsolete section cannot appear if an old HTML page is temporarily cached.
+- Updated Sean Hopp's Brotherhood Development description to events ranging from house bonfires to tailgates.
+- Added Spring 2024 Recruitment Director to Michael Brown's leadership journey.
+- Displays Keith Brauer's Rutgers Fraternity Advisor of the Year recognition from 2018 and Marwell Hyman Award from 2019 as separate honors.
+- Added cache-busting version tags to site CSS and JavaScript references.

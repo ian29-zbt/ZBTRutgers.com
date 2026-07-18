@@ -758,3 +758,6 @@ p{margin:0 0 1.15rem}
 .open-house-highlight .feature-split>img{box-shadow:0 24px 65px rgba(0,0,0,.28)}
 .open-house-highlight .button{background:var(--gold);border-color:var(--gold);color:var(--navy);align-self:flex-start}
 .archive-people{border-top:1px solid var(--line)}
+
+/* Version 8.2.1 safety: obsolete joke position removed */
+.commissioner-section{display:none!important}
