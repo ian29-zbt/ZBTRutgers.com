@@ -1,4 +1,4 @@
-ZBT BETA DELTA — VERSION 8.1
+ZBT BETA DELTA — VERSION 8.2
 Domain: https://zbtrutgers.com
 
 CHANGES IN THIS VERSION
