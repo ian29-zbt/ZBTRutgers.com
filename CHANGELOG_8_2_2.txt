@@ -1,0 +1,5 @@
+VERSION 8.2.2 CHANGES
+
+- Corrected the historic Union Street chapter-house address to 26 Union Street.
+- Identified the Easton Avenue chapter house as 94 Easton Avenue.
+- Updated chapter-house timeline, archive copy, image alt text and social preview references.

@@ -1,4 +1,4 @@
-ZBT Beta Delta Version 8.2.1
+ZBT Beta Delta Version 8.2.2
 
 1. Copy the CONTENTS of this folder into the cloned ZBTRutgers.com repository folder.
 2. Choose Replace All.

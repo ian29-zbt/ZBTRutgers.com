@@ -7,7 +7,7 @@ VERSION 8.2 CHANGES
 - Removed the Sean Hopp 78 Commissioner section and related styling.
 - Updated Sean Hopp's Brotherhood Development description to include house bonfires and tailgates.
 - Added Spring 2025 Recruitment Director to Michael Brown's leadership journey.
-- Corrected the historic Union Street chapter-house address to 10 Union Street.
+- Corrected the historic Union Street chapter-house address to 26 Union Street.
 - Described 34 Sicard Street as a modern fraternity house built specifically for ZBT.
 - Added the Fall 2024 and Fall 2025 record-setting recruitment growth to the 41 Mine Street era.
 - Updated recruitment references from 2025/2026 to Fall 2024/Fall 2025.

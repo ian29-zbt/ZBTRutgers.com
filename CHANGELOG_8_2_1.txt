@@ -1,4 +1,4 @@
-VERSION 8.2.1 CHANGES
+VERSION 8.2.2 CHANGES
 
 - Permanently removed the Sean Hopp 78 Commissioner section.
 - Added a CSS safety rule so the obsolete section cannot appear if an old HTML page is temporarily cached.
